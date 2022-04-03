@@ -1,0 +1,9 @@
+{
+	"name": "DF-Nimble-DEV",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "69dc5354-fb0b-4e1d-9702-f4f8f7bf85fa",
+		"tenantId": "c1123b22-aadd-4960-ae40-f025d673ceee"
+	}
+}
