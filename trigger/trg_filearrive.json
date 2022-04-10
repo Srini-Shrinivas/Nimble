@@ -1,6 +1,7 @@
 {
 	"name": "trg_filearrive",
 	"properties": {
+		"description": "first trigger ...",
 		"annotations": [],
 		"runtimeState": "Started",
 		"pipelines": [
