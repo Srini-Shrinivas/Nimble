@@ -36,7 +36,7 @@
 				"activities": [
 					{
 						"name": "copyfile",
-						"description": "abc..",
+						"description": "abc....",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
@@ -260,7 +260,7 @@
 			"type": "Microsoft.DataFactory/factories/triggers",
 			"apiVersion": "2018-06-01",
 			"properties": {
-				"description": "first trigger ....",
+				"description": "first trigger .... st",
 				"annotations": [],
 				"runtimeState": "Stopped",
 				"pipelines": [
