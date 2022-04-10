@@ -5,11 +5,20 @@
 			"referenceName": "Ls_adlsgen2",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"ds_output_filename": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().ds_output_filename",
+					"type": "Expression"
+				},
 				"folderPath": "output",
 				"fileSystem": "container1"
 			},
