@@ -4,7 +4,7 @@
 		"activities": [
 			{
 				"name": "copyfile",
-				"description": "abc..",
+				"description": "abc....",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
