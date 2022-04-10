@@ -7,6 +7,22 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "DF-Nimble-DEV"
 		},
+		"AzureKeyVaultdev_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://kv-nimble-dev.vault.azure.net/"
+		},
+		"Ls_adlsgen2_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://stnimbledev.dfs.core.windows.net"
+		},
+		"trg_filearrive_properties_PL_FileCopy_parameters_filename": {
+			"type": "string",
+			"defaultValue": "@triggerBody().fileName"
+		},
+		"trg_filearrive_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/837b19ee-d9fe-4ba1-9425-daba1eb9a700/resourceGroups/RG_DEV/providers/Microsoft.Storage/storageAccounts/stnimbledev"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +49,18 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureKeyVaultdev_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVaultdev_properties_typeProperties_baseUrl')]"
+					},
+					"Ls_adlsgen2_properties_typeProperties_url": {
+						"value": "[parameters('Ls_adlsgen2_properties_typeProperties_url')]"
+					},
+					"trg_filearrive_properties_PL_FileCopy_parameters_filename": {
+						"value": "[parameters('trg_filearrive_properties_PL_FileCopy_parameters_filename')]"
+					},
+					"trg_filearrive_properties_typeProperties_scope": {
+						"value": "[parameters('trg_filearrive_properties_typeProperties_scope')]"
 					}
 				}
 			},

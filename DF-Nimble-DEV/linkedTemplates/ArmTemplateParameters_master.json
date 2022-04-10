@@ -5,6 +5,18 @@
 		"factoryName": {
 			"value": "DF-Nimble-DEV"
 		},
+		"AzureKeyVaultdev_properties_typeProperties_baseUrl": {
+			"value": "https://kv-nimble-dev.vault.azure.net/"
+		},
+		"Ls_adlsgen2_properties_typeProperties_url": {
+			"value": "https://stnimbledev.dfs.core.windows.net"
+		},
+		"trg_filearrive_properties_PL_FileCopy_parameters_filename": {
+			"value": "@triggerBody().fileName"
+		},
+		"trg_filearrive_properties_typeProperties_scope": {
+			"value": "/subscriptions/837b19ee-d9fe-4ba1-9425-daba1eb9a700/resourceGroups/RG_DEV/providers/Microsoft.Storage/storageAccounts/stnimbledev"
+		},
 		"containerUri": {
 			"value": ""
 		},
